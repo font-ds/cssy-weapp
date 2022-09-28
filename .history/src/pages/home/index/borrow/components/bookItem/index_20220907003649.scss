@@ -1,0 +1,36 @@
+.book-item{
+    width: 694px;
+    height: 256px;
+    padding:28px 26px 28px 20px;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+
+
+    Image{
+        width: 150px;
+        height: 200px;
+    }
+    .book-right{
+        width: 478px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .title{
+            font-size: 32px;
+            color: #233941;
+        }
+        .name{
+            font-size: 20px;
+            color: #435A62;
+            margin-top: 8px;
+        }
+        .discribe{
+            font-size: 28px;
+            color: #233941;
+        }
+    }
+}

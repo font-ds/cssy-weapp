@@ -1,0 +1,18 @@
+@import "~taro-ui/dist/style/components/input.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/loading.scss";
+.login{
+    padding: 2vw 3vw;
+    .input{
+        border: 1px solid lightgrey;
+        padding: 3vw 4vw;
+        border-radius: 7vw;
+        font-size: 4vw;
+    }
+    .btn{
+        width: 60vw;
+        font-size: 5vw;
+        background-color: lightgreen;
+        border: 0;
+    }
+}

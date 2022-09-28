@@ -1,0 +1,84 @@
+@import "~taro-ui/dist/style/components/avatar.scss";
+
+.mime{
+    .mine-back-1{
+        position: absolute;
+        width: 308px;
+        height: 308px;
+        left: 516px;
+        top: -12px;
+        background: #FFD64E;
+        opacity: 0.2;
+        filter: blur(100px);
+    }
+    .mine-back-2{
+        position: absolute;
+        width: 486px;
+        height: 486px;
+        left: -206px;
+        top: -48px;
+        background: rgba(159, 233, 220, 0.2);
+    }
+    .mine-back-3{
+        position: absolute;
+        width: 362px;
+        height: 362px;
+        left: 98px;
+        top: -118px;
+        background: #E2F9FF;
+        opacity: 0.3;
+        filter: blur(100px);
+    }
+    .mine-back-4{
+        position: absolute;
+        width: 592px;
+        height: 592px;
+        left: -120px;
+        top: 102px;
+        background: #9FE9C8;
+        opacity: 0.3;
+        filter: blur(100px);
+    }
+
+    .top-view{
+        padding: 40px 60px 0 60px;
+        height: 42vw;
+        // background-color: lightseagreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .user-info{
+            display: flex;
+            align-items: center;
+            // flex-direction: ;
+        }
+        .vip-view{
+            display: flex;
+            justify-content: space-between;
+            padding: 4vw;
+            background-color: rgb(25, 37, 118);
+            border-radius: 20px 20px 0 0;
+            color: white;
+            .hr{
+                padding: 0 3px;
+                margin: 0 10px;
+                background-color: aqua;
+            }
+        }
+    }
+
+    .bottom-view{
+        padding: 0 3vw;
+        .server{
+            display: flex;
+            justify-content: space-between;
+
+            view{
+                width: 30%;
+                text-align: center;
+            }
+        }
+    }
+
+}

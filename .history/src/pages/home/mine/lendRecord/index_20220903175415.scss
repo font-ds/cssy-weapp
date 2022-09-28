@@ -1,0 +1,79 @@
+@import "~taro-ui/dist/style/components/button.scss";
+
+.lead-record{
+    padding: 0 28px 10px 28px;
+
+    .record-view{
+        padding: 0 32px;
+        border: 2px solid lightgrey;
+        border-radius: 32px;
+        width: 694px;
+        height: 520px;
+        margin-top: 16px;
+        .title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 120px;
+            line-height: 120px;
+            border-bottom: 2px solid #F2F3F5;
+            .title-left{
+                font-size: 36px;
+                color: #233941;
+            }
+            .title-right{
+                font-size: 24px;
+                color: #435A62;
+            }
+        }
+        .record-info{
+            padding: 26px 0;
+            border-bottom: 2px solid #F2F3F5;
+            font-size: 28px;
+            view{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 14px;
+            }
+            .record-time{
+                margin-left: 222px;
+                // display: inline-block;
+                width: 400px;
+                text-align: right;
+                margin-top: 5px;
+            }
+        }
+        
+        .btn-view{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 25px;
+            background-color: #20C58D;
+            image{
+                height: 28px;
+                // width: 30px;
+            }
+            .record-btn{
+                width: 180px;
+                height: 70px;
+                font-size: 30px;
+                line-height:70px;
+                border-radius: 120px;
+                font-size: 28px;
+                // margin-left: 280px;
+                background-color: white;
+            }
+            .btn-concel{
+                color: #20C58D;
+                border: 1px solid #20C58D;
+            }
+            .btn-finish{
+                color: rgba(101, 124, 133, 0.6);
+                border: 1px solid rgba(101, 124, 133, 0.6);
+            }
+        }
+
+    }
+}

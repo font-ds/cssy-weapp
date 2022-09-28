@@ -1,0 +1,136 @@
+@import "~taro-ui/dist/style/components/button.scss";
+
+.power{
+    // padding: 10px 0;
+
+    .power-back-1{
+        position: absolute;
+        width: 440px;
+        height: 280px;
+        left: 404px;
+        top: 33px;
+        background: #E2E3FC;
+        filter: blur(100px);
+        transform: rotate(39.96deg);
+        z-index: -2;
+    }
+    .power-back-2{
+        position: absolute;
+        width: 440px;
+        height: 170px;
+        left: -30px;
+        top: 2.5px;
+        background: #DFFFFA;
+        filter: blur(100px);
+        transform: rotate(35.3deg);
+        z-index: -1;
+    }
+
+    .vip-view{
+        width: 700px;
+        height: 360px;
+        margin: 0 auto;
+        padding: 20px;
+        background: linear-gradient(105.28deg, rgba(128, 255, 247, 0.124) 41%, rgba(93, 171, 255, 0.0612703) 78.61%, rgba(65, 84, 252, 0) 98.91%), linear-gradient(108.14deg, rgba(3, 110, 226, 0.3) 8.9%, rgba(0, 42, 190, 0.3) 97.5%), linear-gradient(104.93deg, rgba(127, 211, 254, 0.8) 0.86%, rgba(0, 101, 219, 0.8) 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .time{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .vip-type{
+                font-family: 'Modernia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                color: #DCEAFF;
+            }
+            .vip-time{
+                font-weight: 300;
+                font-size: 30px;
+                color: #E8F1FF;
+
+            }
+        }
+        .vip-type{
+            font-family: 'YouSheBiaoTiHei';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 128px;
+            margin-left: 50px;
+        }
+        .btn{
+            margin-right: 0;
+            height: 80px;
+            line-height: 80px;
+            background: linear-gradient(97.53deg, #E9FAFB 11.87%, #CAF6F9 43.89%, #96DDFC 119.6%);
+            border-radius: 60px;
+            font-size: 32px;
+            color: #0069BF;
+            font-family: 'PingFang SC';
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
+    // .white-vip{
+    //     position: relative;
+    //     left: -28px;
+    //     top: -230px;
+    //     font-family: 'Orbits';
+    //     font-style: normal;
+    //     font-weight: 250;
+    //     font-size: 300px;
+    //     letter-spacing: 0.1em;
+    //     background: linear-gradient(180deg, #88E3FF 0%, #90FFF8 44.06%, #D9FFFF 100%);
+    //     background-clip: text;
+    //     opacity: 0.2;
+    // }
+    .title{
+        margin-top: 70px;
+        font-size: 36px;
+        margin-left: 28px;
+        color: #233941;
+    }
+    .padding-view{
+        width: 694px;
+        margin-left: 28px;
+        margin-top: 20px;
+        padding: 25px;
+        display: flex;
+        justify-content: space-around;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(186, 212, 241, 0.3);
+        border-radius: 16px;
+        .power-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .power-img{
+            width: 96px;
+            height: 96px;
+        }
+        .item-name{
+            font-size: 28px;
+            margin-top: 5px;
+            color: #233941;
+
+        }
+        .item-discribe{
+            text-align: center;
+        }
+        Image{
+            width: 200px;
+            height: 150px;
+        }
+    }
+    .vip-discribe{
+        margin: 20px 38px 0 38px;
+        font-size: 28px;
+        color: #233941;
+    }
+}

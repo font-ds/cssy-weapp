@@ -1,0 +1,76 @@
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/avatar.scss";
+
+
+.teacher-appoint{
+    padding: 24px 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    .teacher-info{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 28px;
+        padding-bottom: 20px;
+        .avator{
+            width: 136px;
+            height: 136px;
+        }
+        .info-right{
+            width: 534px;
+            .info-name{
+                font-size: 32px;
+                color: #233941;
+            }
+            .info-detail{
+                font-size: 24px;
+                color: #233941;
+            }
+        }
+    }
+    .time-title{
+        padding-left: 21px;
+    }
+    .choose-time{
+        display: flex;
+        justify-content: space-between;
+        padding:0 21px ;
+        margin-top: 10px;
+        .choose-item{
+            display: inline;
+            padding: 20px 10px; 
+            border-radius: 40px;
+        }
+    }
+    .scroll-view{
+        box-sizing: border-box;
+        height: 100%;
+        border-bottom: 1px solid lightgrey;
+        .grid-contioner{
+            padding: 20px 21px;
+            display: grid;
+            grid-template-columns: 216px 216px 216px;
+            column-gap:30px ;
+            row-gap: 25px;
+            view{
+                display: inline-block;
+                background-color: aqua;
+                width: 216px;
+                text-align: center;
+                padding: 15px 10px;
+                border-radius: 10px;
+            }
+        }
+    }
+    .btn{
+        width: 280px;
+        height: 140px;
+        border-radius: 20px;
+        margin-top: 50px;
+    }
+    .choose-num{
+        text-align: center;
+        margin-top: 10px;
+    }
+}

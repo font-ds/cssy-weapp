@@ -1,0 +1,25 @@
+.content{
+    // margin-top: 2vw;
+
+    .content-item{
+        display: flex;
+        justify-content: space-between;
+        // width: 96%;
+        width: 694px;
+        height: 220px;
+        padding: 24px 16px;
+        margin: 0 auto;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        // border: 1px solid #dedede;
+
+        .item-left{
+            width: 256px;
+            height: 100%;
+            border-radius: 16px;
+        }
+        .item-right{
+            width: 50%;
+        }
+    }
+}

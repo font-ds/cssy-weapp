@@ -1,0 +1,80 @@
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/action-sheet.scss";
+.book-detail{
+    height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .detail-item{
+        width: 694px;
+        margin: 0 auto;
+        // margin-top: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        Image{
+            width: 240px;
+            height: 320px;
+            border-radius: 16px;
+
+        }
+        .book-right{
+            width: 454px;
+            padding-left: 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .title{
+                font-size: 36px;
+                color: #233941;
+            }
+        }
+    }
+
+    .title{
+        font-size: 6px;
+        color: #233941;
+    }
+
+    .detail-content{
+        padding: 10px 45px 20px 45px;
+        flex: 1;
+    }
+    .btn{
+        height: 80px;
+        width:240px;
+        line-height: 80px;
+    }
+
+    .book-time{
+        box-sizing: border-box;
+        .borrow-title{
+            padding: 20px 0;
+            border-bottom: 1px solid lightgrey;
+            font-size: 35px;
+        }
+        .close{
+            position: relative;
+            top: -70px;
+            left: 330px;
+        }
+        .borrow-choose-time{
+            width: 360px;
+            margin: 20px auto;
+            
+            background-color: white;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            padding: 10px 0;
+        }
+        .borrow-btn{
+            width: 240px;
+            height: 70px;
+            line-height: 70px;
+            margin-top: 100px;
+            border-radius: 20px;
+        }
+    }
+}

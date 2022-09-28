@@ -1,0 +1,28 @@
+@import "~taro-ui/dist/style/components/button.scss";
+
+.appoint-record{
+    padding: 10px 28px;
+
+    .record-view{
+        padding: 10px 20px;
+        border: 2px solid lightgrey;
+        border-radius: 32px;
+        .title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .appoint-time{
+            display: flex;
+        }
+        .record-btn{
+            width: 150px;
+            height: 50px;
+            font-size: 30px;
+            line-height: 48px;
+            margin-top: 10px;
+            margin-right: 0;
+        }
+    }
+}

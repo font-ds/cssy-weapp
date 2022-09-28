@@ -1,0 +1,58 @@
+@import "~taro-ui/dist/style/components/button.scss";
+
+.appoint-record{
+    padding: 10px 28px;
+
+    .record-view{
+        padding: 0 32px;
+        border: 2px solid lightgrey;
+        border-radius: 32px;
+        width: 694px;
+        height: 576px;
+        .title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            line-height: 100px;
+            border-bottom: 2px solid #F2F3F5;
+            .title-left{
+                font-size: 36px;
+                color: #233941;
+            }
+            .title-right{
+                font-size: 24px;
+                color: #435A62;
+            }
+        }
+        .record-info{
+            padding: 20px 0;
+            border-bottom: 2px solid #F2F3F5;
+            view{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 14px;
+            }
+            .record-time{
+                margin-left: 222px;
+                // display: inline-block;
+                width: 400px;
+                text-align: right;
+                margin-top: 5px;
+            }
+        }
+        .record-btn{
+            width: 180px;
+            height: 70px;
+            font-size: 30px;
+            line-height:70px;
+            border-radius: 120px;
+            margin-right: 0px;
+            margin-top: 15px;
+            font-size: 28px;
+            color: #20C58D;
+
+        }
+    }
+}

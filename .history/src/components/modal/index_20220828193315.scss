@@ -1,0 +1,9 @@
+@import "~taro-ui/dist/style/components/modal.scss";
+@import "~taro-ui/dist/style/components/curtain.scss";
+
+
+.modal{
+    .content{
+        min-height: 50px;
+    }
+}

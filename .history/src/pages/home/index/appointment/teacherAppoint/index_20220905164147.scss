@@ -1,0 +1,96 @@
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/avatar.scss";
+
+
+.teacher-appoint{
+    padding: 24px 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    .teacher-info{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 28px;
+        padding-bottom: 20px;
+        .avator{
+            width: 136px;
+            height: 136px;
+        }
+        .info-right{
+            width: 534px;
+            .info-name{
+                font-size: 32px;
+                color: #233941;
+            }
+            .info-detail{
+                font-size: 24px;
+                color: #233941;
+                margin-top: 5px;
+            }
+        }
+    }
+    .time-title{
+        padding-left: 28px;
+        font-size: 20px;
+        color: #657C85;
+    }
+    .choose-time{
+        display: flex;
+        justify-content: space-between;
+        padding:0 21px ;
+        margin-top: 10px;
+        .choose-item{
+            display: inline;
+            padding: 20px 10px; 
+            border-radius: 40px;
+        }
+        .top{
+            font-size: 24px;
+            text-align: center;
+        }
+        .bottom{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            margin-top: 10px;
+            font-size: 24px;
+            color: #233941;
+            border-radius: 50%;
+        }
+    }
+    .scroll-view{
+        box-sizing: border-box;
+        height: 100%;
+        .grid-contioner{
+            padding: 20px 28px;
+            display: grid;
+            grid-template-columns: 216px 216px 216px;
+            column-gap:30px ;
+            row-gap: 25px;
+            view{
+                display: inline-block;
+                width: 216px;
+                text-align: center;
+                padding: 15px 10px;
+                border-radius: 8px;
+                border: 1px solid #9FE9C8;
+            }
+        }
+    }
+    .btn{
+        width: 340px;
+        height: 130px;
+        background: linear-gradient(270deg, #20C58D -16.56%, #64E9B0 115.94%);
+        border-radius: 60px;
+        border: none;
+        font-size: 32px;
+        color: #FFFFFF;
+    }
+    .choose-num{
+        text-align: center;
+        margin-top: 10px;
+    }
+}

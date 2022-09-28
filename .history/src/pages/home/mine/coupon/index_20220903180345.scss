@@ -1,0 +1,62 @@
+@import "~taro-ui/dist/style/components/input.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/tag.scss";
+
+.coupon{
+    padding: 20px 32px;
+    .coupon-ipt{
+        margin-left: 0;
+        background: #F2F3F5;
+        height: 80px;
+        padding: 15px 0 15px 30px;
+        border: 1px solid lightgrey;
+        border-radius: 50px;
+    }
+    .coupon-btn{
+        width: 200px;
+        height: 80px;
+        line-height: 75px;
+    }
+
+    .coupon-item{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(255, 184, 184);
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+        .money-view{
+            width: 220px;
+            padding: 15px 0px 30px 0px;
+            border-right: 1px dashed lightgrey;
+            view{
+                text-align: center;
+            }
+            .money{
+                font-size: 70px;
+                font-weight: bold;
+            }
+        }
+        .info-view{
+            width: 490px;
+            padding: 25px 15px 25px 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .tag{
+                height: 45px;
+                line-height: 35px;
+                color: white;
+                background-color: red;
+                border: none;
+                border-radius: 0;
+                padding: 5px 15px;
+            }
+
+            // .use-btn{
+            //     display: inline-block;
+            //     width: 150px;
+            //     background-color: red;
+            // }
+        }
+    }
+}

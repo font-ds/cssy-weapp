@@ -1,0 +1,179 @@
+@import "~taro-ui/dist/style/components/avatar.scss";
+
+.mime{
+    padding: 0 28px;
+    .mine-back-1{
+        position: absolute;
+        width: 308px;
+        height: 308px;
+        left: 516px;
+        top: -12px;
+        background: #FFD64E;
+        opacity: 0.2;
+        filter: blur(100px);
+        z-index: -4;
+
+    }
+    .mine-back-2{
+        position: absolute;
+        width: 486px;
+        height: 486px;
+        left: -206px;
+        top: -48px;
+        background: rgba(159, 233, 220, 0.2);
+        z-index: -3;
+
+    }
+    .mine-back-3{
+        position: absolute;
+        width: 362px;
+        height: 362px;
+        left: 98px;
+        top: -118px;
+        background: #E2F9FF;
+        opacity: 0.3;
+        filter: blur(100px);
+        z-index: -2;
+
+    }
+    .mine-back-4{
+        position: absolute;
+        width: 592px;
+        height: 592px;
+        left: -120px;
+        top: 102px;
+        background: #9FE9C8;
+        opacity: 0.3;
+        z-index: -1;
+        filter: blur(100px);
+    }
+    .mine-title{
+        // position: absolute;
+        font-family: 'ZiZhiQuXiMaiTi';
+        font-style: normal;
+        font-weight: 500;
+        // font-size: 40px;
+        font-size: 120%;
+        color: #233941;
+        opacity: 1;
+    }
+
+    .top-view{
+        position: absolute;
+        width: 694px;
+        height: 320px;
+        left: 28px;
+        top: 180px;
+        background: rgba(255, 255, 255, 0.4);
+        box-shadow: 0px 0px 20px rgba(140, 220, 206, 0.3), inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(80px);            
+        border-radius: 32px;
+
+        .avator{
+            position: absolute;
+            width: 128px;
+            height: 128px;
+            left: 60px;
+            top: 40px;
+
+        }
+        .info-name{
+            position: absolute;
+            height: 56px;
+            left: 220px;
+            top: 58px;
+            font-size: 40px;
+            line-height: 56px;
+            color: #233941;
+        }
+        .info-phone{
+            position: absolute;
+            height: 40px;
+            left: 220px;
+            top: 118px;
+            font-size: 28px;
+            line-height: 40px;   
+            color: #435A62;
+        }
+
+
+        .vip-view{
+            position: absolute;
+            width: 694px;
+            height: 100px;
+            background: linear-gradient(105.28deg, rgba(128, 255, 247, 0.124) 41%, rgba(93, 171, 255, 0.0612703) 78.61%, rgba(65, 84, 252, 0) 98.91%), linear-gradient(108.14deg, rgba(3, 110, 226, 0.3) 8.9%, rgba(0, 42, 190, 0.3) 97.5%), linear-gradient(104.93deg, rgba(127, 211, 254, 0.8) 0.86%, rgba(0, 101, 219, 0.8) 100%);
+            border-radius: 0px 0px 16px 16px;
+            top: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+
+            font-style: normal;
+            font-weight: 400;
+            .vip-type{
+                font-family: 'YouSheBiaoTiHei';
+                color: #f9f9f9;
+                font-weight: bold;
+                font-size: 40px;
+            }
+            .hr{
+                padding: 0 1px 0 0;
+                margin: 0 15px;
+                background-color: #f9f9f9;
+            }
+            .vip-time{
+                font-size: 26px;
+                color: #F9F9F9;
+                line-height: 100px;
+            }
+            .vip-btn{
+
+                padding: 0 24px;
+                font-family: 'YouSheBiaoTiHei';
+                font-size: 32px;
+                line-height: 58px;
+                height: 58px;
+                text-align: center;
+                background: linear-gradient(97.53deg, #E9FAFB 11.87%, #CAF6F9 43.89%, #96DDFC 119.6%);
+                border-radius: 30px;
+                color: #0069BF;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .bottom-view{
+        // margin-top: 60vw;
+        margin-top: 360px;
+        // padding: 0 3vw;
+        .server{
+            display: flex;
+            justify-content: space-between;
+            width: 694px;
+            height: 220px;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 20px rgba(174, 217, 198, 0.3);
+            border-radius: 12px;
+            .server-item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 15px 0;
+            }
+            view{
+                width: 30%;
+                text-align: center;
+            }
+            image{
+                width: 128px;
+                height: 128px;
+            }
+            text{
+                font-size: 28px;
+                color: #435A62;
+            }
+        }
+    }
+
+}

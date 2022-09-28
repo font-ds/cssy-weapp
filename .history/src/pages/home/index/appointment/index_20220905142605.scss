@@ -1,0 +1,47 @@
+.appointment{
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    // background-color: yellow;
+    .totleView{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        Text{
+            font-family: 'ZiZhiQuXiMaiTi';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            color: #233941;
+        }
+    }
+    .choose-bottom{
+        width: 90px;
+        height: 6px;
+        margin-top: 8px;
+    }
+    .img-view{
+        margin-top: -20px;
+        text-align: right;
+        width: 160px;
+        transition: all 0.3s;
+    }
+    .choose-two{
+        width: 395px;
+    }
+    .choose-three{
+        // width: 653px;
+        width: 405px;
+    }
+}
+
+Swiper{
+    height: 100%;
+    flex-direction: column;
+}
+SwiperItem{
+    height: 100%;
+}
+
+

@@ -1,0 +1,51 @@
+@import "~taro-ui/dist/style/components/button.scss";
+
+.power{
+    padding: 10px 0;
+
+    .vip-view{
+        width: 700px;
+        height: 360px;
+        margin: 0 auto;
+        padding: 20px;
+        background: lightgreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .time{
+            display: flex;
+            justify-content: space-between;
+        }
+        .vip-type{
+            font-size: 65px;
+            text-align: center;
+        }
+        .btn{
+            margin-right: 0;
+            height: 70px;
+            line-height: 70px;
+        }
+    }
+    .title{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .padding-view{
+        padding: 50px 25px 0 25px ;
+        display: flex;
+        justify-content: space-between;
+        .item-name{
+            text-align: center;
+        }
+        .item-discribe{
+            text-align: center;
+        }
+        Image{
+            width: 200px;
+            height: 150px;
+        }
+    }
+}

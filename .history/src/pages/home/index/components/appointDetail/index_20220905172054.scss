@@ -1,0 +1,26 @@
+@import "~taro-ui/dist/style/components/button.scss";
+
+.appointDetail{
+    padding: 0 28px;
+
+    .top-ps{
+        font-size: 20px;
+        color: #657C85;
+    }
+    .content-view{
+        width: 694px;
+        padding: 40px 24px;
+    }
+    >view{
+        margin-top: 10px;
+    }
+    .message{
+        margin-top: 25px;
+        padding-top: 25px;
+        border-top: 1px solid lightgrey;
+    }
+    .btn{
+        width: 280px;
+        border-radius: 20px;
+    }
+}

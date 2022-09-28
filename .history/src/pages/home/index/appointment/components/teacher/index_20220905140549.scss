@@ -1,0 +1,35 @@
+@import "~taro-ui/dist/style/components/avatar.scss";
+
+.teacher{
+    margin-top: 2vw;
+
+    .teacher-item{
+        // display: flex;
+        // justify-content: space-between;
+        padding: 10px 20px;
+        // width: 96%;
+        width: 694px;
+        height: 270px;
+        margin: 0 auto;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(239, 245, 243, 0.4);
+        border-radius: 16px;
+
+        .teacher-view{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .teacher-info{
+                display: flex;
+            }
+            .info-right>view{
+                text-align: right;
+            }
+        }
+        .appoint{
+            text-align: right;
+            text-decoration:underline;
+            color: green;
+        }
+    }
+}

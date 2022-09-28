@@ -1,0 +1,45 @@
+@import "~taro-ui/dist/style/components/avatar.scss";
+
+.mime{
+    .top-view{
+        padding: 40px 60px 0 60px;
+        height: 42vw;
+        background-color: lightseagreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .user-info{
+            display: flex;
+            align-items: center;
+            // flex-direction: ;
+        }
+        .vip-view{
+            display: flex;
+            justify-content: space-between;
+            padding: 4vw;
+            background-color: rgb(25, 37, 118);
+            border-radius: 20px 20px 0 0;
+            color: white;
+            .hr{
+                padding: 0 3px;
+                margin: 0 10px;
+                background-color: aqua;
+            }
+        }
+    }
+
+    .bottom-view{
+        padding: 0 3vw;
+        .server{
+            display: flex;
+            justify-content: space-between;
+
+            view{
+                width: 30%;
+                text-align: center;
+            }
+        }
+    }
+
+}

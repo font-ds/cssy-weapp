@@ -1,0 +1,44 @@
+@import "~taro-ui/dist/style/components/button.scss";
+
+.contentAppoint{
+    padding: 20px 28px;
+    Image{
+        width: 694px;
+        height: 390px;
+        margin: 0 auto;
+        border-radius: 32px 32px 0px 0px;
+    }
+    .title{
+        margin-top: 30px;
+        font-size: 36px;
+        color: #233941;
+    }
+    .content-title{
+        font-size: 28px;
+        color: #435A62;
+        margin-top: 20px;
+    }
+    .content{
+        margin-top: 16px;
+        font-size: 28px;
+        color: #233941;
+    }
+    .tag,.time{
+        // margin-left: 10px;
+        font-size: 28px;
+        color: #435A62;
+    }
+
+    .btn{
+        width: 280px;
+        background: linear-gradient(270deg, #20C58D -16.56%, #64E9B0 115.94%);
+    border-radius: 60px;
+        margin-top: 40px;   
+    }
+    .num{
+        margin-top: 15px;
+        font-size: 28px;
+        text-align: center;
+        color: rgba(101, 124, 133, 0.6); 
+    }
+}

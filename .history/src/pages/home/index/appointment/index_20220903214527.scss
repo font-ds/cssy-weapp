@@ -1,0 +1,45 @@
+.appointment{
+    padding: 10px 28px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    // background-color: yellow;
+    .totleView{
+        display: flex;
+        justify-content: space-around;
+
+        Text{
+            font-family: 'ZiZhiQuXiMaiTi';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            color: #233941;
+        }
+    }
+    .choose-bottom{
+        width: 90px;
+        height: 6px;
+        margin-top: 8px;
+        margin-left: 535px;
+        transition: all 0.5;
+    }
+    .choose-one{
+        margin-left: 73px;
+    }
+    .choose-two{
+        margin-left: 302px;
+    }
+    .choose-three{
+    }
+
+}
+
+Swiper{
+    height: 100%;
+    flex-direction: column;
+}
+SwiperItem{
+    height: 100%;
+}
+
+

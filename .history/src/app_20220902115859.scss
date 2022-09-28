@@ -1,0 +1,29 @@
+view{
+    box-sizing: border-box;
+}
+
+
+.reading,.teacher,.content{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.index-bottom-name{
+    position: absolute;
+    width: 212px;
+    height: 28px;
+    left: 268px;
+    // top: 780px;
+    bottom: 30px;
+
+    /* regular/10 */
+
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    text-align: center;
+    color: #657C85;
+}

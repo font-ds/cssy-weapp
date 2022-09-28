@@ -1,0 +1,98 @@
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/action-sheet.scss";
+.book-detail{
+    height: 100vh;
+    padding: 20px 0;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .detail-item{
+        width: 694px;
+        margin: 0 auto;
+        // margin-top: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        Image{
+            width: 240px;
+            height: 320px;
+            border-radius: 16px;
+
+        }
+        .book-right{
+            width: 454px;
+            padding: 10px 0;
+            padding-left: 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .book-title{
+                font-size: 36px;
+                color: #233941;
+            }
+            .name{
+                font-size: 24px;
+                color: #435A62;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    .title{
+        font-size: 32px;
+        margin-left: 28px;
+        width: 128px;
+        padding-bottom: 5px;
+        color: #233941;
+        border-bottom: 4px solid #20C58D;
+    }
+
+    .detail-content{
+        padding: 30px 38px;
+        flex: 1;
+        font-size: 28px;
+        color: #233941;
+
+    }
+    .btn{
+        height: 88px;
+        width:360px;
+        line-height: 88px;
+        background: linear-gradient(270deg, #20C58D -16.56%, #64E9B0 115.94%);
+        border-radius: 60px;
+        border: none;
+    }
+
+    .book-time{
+        box-sizing: border-box;
+        .borrow-title{
+            padding-top: 40px;
+            font-size: 32px;
+            color: #233941;
+
+        }
+        .close{
+            position: relative;
+            top: -70px;
+            left: 330px;
+        }
+        .borrow-choose-time{
+            width: 360px;
+            margin: 20px auto;
+            
+            background-color: white;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            padding: 10px 0;
+        }
+        .borrow-btn{
+            width: 240px;
+            height: 70px;
+            line-height: 70px;
+            margin-top: 100px;
+            border-radius: 20px;
+        }
+    }
+}

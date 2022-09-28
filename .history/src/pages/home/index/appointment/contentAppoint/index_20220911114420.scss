@@ -1,0 +1,23 @@
+@import "~taro-ui/dist/style/components/button.scss";
+
+.contentAppoint{
+    padding: 20px 28px;
+    Image{
+        width: 694px;
+        height: 390px;
+        margin: 0 auto;
+    }
+    .tag,.time{
+        margin-left: 10px;
+    }
+
+    .btn{
+        width: 280px;
+        border-radius: 20px;
+        margin-top: 40px;
+    }
+    .num{
+        margin-top: 10px;
+        text-align: center;
+    }
+}

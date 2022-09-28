@@ -1,0 +1,82 @@
+.read-appoint{
+    padding: 10px 0px;
+    // background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .title{
+        padding-left: 28px;
+        font-size: 20px;
+        color: #657C85;
+    }
+    .choose-time{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        padding:0 28px ;
+        .choose-item{
+            display: inline;
+            padding: 20px 10px; 
+            border-radius: 40px;
+            .top{
+                font-size: 24px;
+                text-align: center;
+            }
+            .bottom{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 60px;
+                height: 60px;
+                margin-top: 10px;
+                font-size: 24px;
+                color: #233941;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .current-time{
+        font-size: 24px;
+        padding-left: 28px;
+        margin-top: 20px;
+        color: #FE8045;
+    }
+    .choose-hour{
+        padding-left: 40px;
+        // border-radius: 20px;
+        width: 694px;
+        height: 120px;
+        background-image: url(../../../../../assets/read-back.png);
+        background-size: 694px 120px;
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        .circle{
+            width: 20px;
+            height: 20px;
+            border: 1px solid #3EC4A3;
+            border-radius: 50%;
+        }
+        .hour-left{
+            color: white;
+            margin-left: 20px;
+        }
+        .num{
+            display: inline-block;
+            padding: 20px 0;
+            width: 180px;
+            // border-left: 1px solid white;
+            color: white;
+            view{
+                text-align: center;
+            }
+        }
+    }
+    .scroll-view{
+        box-sizing: border-box;
+        height: 100%;
+        padding-bottom: 100px;
+    }
+}

@@ -1,0 +1,68 @@
+@import "~taro-ui/dist/style/components/button.scss";
+
+.power{
+    padding: 10px 0;
+
+    .vip-view{
+        width: 700px;
+        height: 360px;
+        margin: 0 auto;
+        padding: 20px;
+        background: linear-gradient(105.28deg, rgba(128, 255, 247, 0.124) 41%, rgba(93, 171, 255, 0.0612703) 78.61%, rgba(65, 84, 252, 0) 98.91%), linear-gradient(108.14deg, rgba(3, 110, 226, 0.3) 8.9%, rgba(0, 42, 190, 0.3) 97.5%), linear-gradient(104.93deg, rgba(127, 211, 254, 0.8) 0.86%, rgba(0, 101, 219, 0.8) 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .time{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .vip-type{
+                font-family: 'Modernia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                color: #DCEAFF;
+            }
+            .vip-time{
+                font-weight: 300;
+                font-size: 30px;
+                color: #E8F1FF;
+
+            }
+        }
+        .vip-type{
+            font-family: 'YouSheBiaoTiHei';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 128px;
+            background: linear-gradient(180deg, #FEFFEF 0%, #D2FFFF 100%);
+        }
+        .btn{
+            margin-right: 0;
+            height: 70px;
+            line-height: 70px;
+        }
+    }
+    .title{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .padding-view{
+        padding: 50px 25px 0 25px ;
+        display: flex;
+        justify-content: space-between;
+        .item-name{
+            text-align: center;
+        }
+        .item-discribe{
+            text-align: center;
+        }
+        Image{
+            width: 200px;
+            height: 150px;
+        }
+    }
+}

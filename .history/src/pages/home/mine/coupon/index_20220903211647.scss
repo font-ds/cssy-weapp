@@ -1,0 +1,99 @@
+@import "~taro-ui/dist/style/components/input.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/tag.scss";
+
+.coupon{
+    padding: 20px 32px;
+    .coupon-ipt{
+        margin-left: 0;
+        background: #F2F3F5;
+        height: 80px;
+        padding: 15px 0 15px 30px;
+        border: 1px solid lightgrey;
+        border-radius: 50px;
+    }
+    .coupon-btn{
+        position: relative;
+        width: 116px;
+        height: 60px;
+        line-height: 60px;
+        top: -72px;
+        left: 270px;
+        background: #E6EAEB;
+        border:none;
+        font-size: 28px;
+        color: #233941;
+    }
+    .coupon-title{
+        font-size: 32px;
+        color: #233941;
+    }
+
+    .coupon-item{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 16px;
+        padding: 24px;
+        width: 694px;
+        height: 220px;
+        margin-top: 20px;
+        background-image: url(../../../../assets/coupon-back.png);
+        background-size: 694px 220px;
+        .money-view{
+            width: 297px;
+            padding: 0px 40px 28px 0px;
+            border-radius: 0 -20px -20px 0;
+            border-right: 1px dashed lightgrey;
+            text{
+                position: relative;
+                font-size: 32px;
+                color: #FE8045;
+                left: 10px;
+            }   
+            view{
+                text-align: center;
+            }
+            .money{
+                font-size: 120px;
+                font-weight: bold;
+                margin: -55px;
+                color: #FE8045;
+                // background-color: #233941;
+            }
+            .limit{
+                margin-top: 30px;
+                font-size: 24px;
+                color: #FE8045;
+
+            }
+        }
+        .info-view{
+            width: 490px;
+            padding: 10px 15px 25px 15px;
+            display: flex;
+            flex-direction: column;
+            // justify-content: space-around;
+            .tag{
+                height: 45px;
+                line-height: 35px;
+                color: white;
+                background-color: red;
+                border: none;
+                border-radius: 0;
+                // padding: 5px 15px;
+            }
+            view{
+                display: flex;
+                text{
+                    font-size: 28px;
+                    color: #233941;
+                }
+            }
+            // .use-btn{
+            //     display: inline-block;
+            //     width: 150px;
+            //     background-color: red;
+            // }
+        }
+    }
+}

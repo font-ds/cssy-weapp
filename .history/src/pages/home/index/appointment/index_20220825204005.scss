@@ -1,0 +1,30 @@
+.appointment{
+    padding: 1vw 3vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    // background-color: yellow;
+    .totleView{
+        width: 100%;
+        background-color: rgb(227, 226, 226);
+        display: flex;
+        justify-content: space-around;
+        padding: 3vw 2vw;
+        border-radius: 10vw;
+
+        Text{
+            font-size: 4vw;
+        }
+    }
+
+}
+
+Swiper{
+    height: 100%;
+    flex-direction: column;
+}
+SwiperItem{
+    height: 100%;
+}
+
+

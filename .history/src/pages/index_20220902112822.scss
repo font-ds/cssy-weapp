@@ -1,0 +1,39 @@
+.start-index{
+    Image{
+        position: absolute;
+        width: 190px;
+        height: 154px;
+        left: 280px;
+        top: 322px;
+    }
+    .title{
+        color: white;
+        position: absolute;
+        width: 222px;
+        height: 58px;
+        left: 268px;
+        top: 512px;
+    }
+    .content{
+        position: absolute;
+        width: 224px;
+        height: 20px;
+        left: 75px;
+        top: 305px;
+
+        /* regular/14 */
+
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height */
+
+        text-align: center;
+
+        /* font/2 */
+
+        color: #435A62;
+    }
+}

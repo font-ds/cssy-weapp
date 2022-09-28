@@ -1,0 +1,19 @@
+.book-right{
+    width: 478px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .title{
+        font-size: 32px;
+        color: #233941;
+    }
+    .name{
+        font-size: 20px;
+        color: #435A62;
+        margin-top: 8px;
+    }
+    .discribe{
+        font-size: 28px;
+        color: #233941;
+    }
+}

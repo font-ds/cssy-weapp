@@ -1,0 +1,86 @@
+@import "~taro-ui/dist/style/components/input.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+
+page{
+    background-color: #f9f9f9;
+}
+.borrow{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    // background-color: yellow;
+
+    .top-view{
+        padding: 10px 28px;
+        width: 100%;
+        background-color: #ffffff;
+
+    }
+    .search{
+        width: 694px;
+        height: 76px;
+        margin: auto;
+        background-color: rgb(240, 240, 240);
+        border-radius: 50px;
+        height: 70px;
+        font-size: 32px;
+        color: rgba(101, 124, 133, 0.6);
+        padding: 10px 95px;
+    }
+    .search-icon{
+        position: relative;
+        left: -500px;
+    }
+    .totleView{
+        width: 100%;
+        display: flex;
+        padding-left: 26px;
+        margin-top: 10px;
+
+        Text{
+            height: 60px;
+            line-height: 60px;
+            padding: 10px 0;
+            font-family: 'ZiZhiQuXiMaiTi';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            color: #233941;
+            margin-right: 44px;
+        }
+    }
+    .img-view{
+        width: 82px;
+        text-align: right;
+        margin-top: -40px;
+        transition: all 0.3s;
+        .choose-bottom{
+            width: 44px;
+            height: 6px;
+        }
+    }
+    .choose-two{
+        width: 198px;
+    }
+
+    .swiper{
+        height: 100%;
+        flex-direction: column;
+    
+    }
+    .swiper-item{
+        height: 100%;
+        // background-color: yellow;
+        .scroll-view{
+            box-sizing: border-box;
+            padding:20px 0;
+            height: 100%;
+        }
+        
+    }
+
+}
+
+
+
+

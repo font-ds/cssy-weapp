@@ -1,0 +1,39 @@
+page{
+    background-color: #f9f9f9;
+}
+.content{
+
+    .content-item{
+        display: flex;
+        justify-content: space-between;
+        width: 694px;
+        height: 220px;
+        padding: 24px 16px;
+        margin: 0 auto;
+        border-radius: 16px;
+        background: #FFFFFF;
+
+        .item-left{
+            width: 256px;
+            height: 100%;
+            border-radius: 16px;
+        }
+        .item-right{
+            width: 404px;
+            padding-left: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .content-title{
+                font-size: 32px;
+                margin-left: -16px;
+                color: #233941;
+            }
+            .content-time{
+                font-size: 24px;
+                margin-top: 6px;
+                color: #657C85;
+            }
+        }
+    }
+}
